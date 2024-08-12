@@ -10,6 +10,8 @@
 - **Use case:** Create four S3 buckets using for_each maps 
 - **c2-s3bucket.tf**
 ```t
+# Terraform Resource Meta-Argument for_each
+
 # Create S3 Bucket per environment with for_each and maps
 # https://registry.terraform.io/providers/hashicorp/aws/latest/docs/resources/s3_bucket
 
